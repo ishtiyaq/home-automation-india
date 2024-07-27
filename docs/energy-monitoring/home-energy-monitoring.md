@@ -29,10 +29,10 @@ ESP RX   <-->  PZEM TX
 ESP TX   <-->  PZEM RX
 ```
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](img/image.png)
+![alt text](img/image-1.png)
+![alt text](img/image-2.png)
+![alt text](img/image-3.png)
 
 
 Note: Once you apply the resistor mode, there is a high likely chance that PZEM would not work when powered from 5V. In such instances, you may try powering the PZEM sensor from the ESP 3.3V. It should work. 
