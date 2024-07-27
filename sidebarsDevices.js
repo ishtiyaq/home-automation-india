@@ -6,8 +6,8 @@ module.exports = {
       },
       {
         type: 'link',
-        href: '/youtube',
-        label: 'YouTube Channels',
+        href: '/links',
+        label: 'Usefull Links',
       },
       {
         type: 'link',
