@@ -34,6 +34,29 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      'content-docs',
+      {
+        id: 'devices',
+        path: 'devices',
+        routeBasePath: 'devices',
+        sidebarPath: require.resolve('./sidebarsDevices.js'),
+        showLastUpdateTime: true,
+      },
+    ],
+    [
+      'content-docs',
+      {
+        id: 'links',
+        path: 'links',
+        routeBasePath: 'links',
+        sidebarPath: require.resolve('./sidebarsLinks.js'),
+        showLastUpdateTime: true,
+      },
+    ]
+  ],
+
   presets: [
     [
       'classic',
@@ -79,6 +102,16 @@ const config = {
             label: 'Tutorial',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: '/devices', 
+            label: 'Smart Devices', 
+            position: 'left'
+          },
+          {
+            href: '/links',
+            label: 'Links',
+            position: 'left',
+          },
           {
             href: 'https://github.com/ishtiyaq/home-automation-india',
             label: 'GitHub',
