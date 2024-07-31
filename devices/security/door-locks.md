@@ -1,7 +1,7 @@
 ---
-title: Lights
+title: Door Lock
 hide_title: true
-sidebar_label: Lights
+sidebar_label: Door Lock
 sidebar_position: 2
 ---
 

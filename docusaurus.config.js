@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Home Automation India',
-  tagline: 'Automations are cool',
+  title: 'Empower Your Smart Home with Local Control & DIY Solutions',
+  tagline: 'Discover the best DIY projects and readymade devices for seamless integration with Home Assistant.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -48,10 +48,10 @@ const config = {
     [
       'content-docs',
       {
-        id: 'links',
-        path: 'links',
-        routeBasePath: 'links',
-        sidebarPath: require.resolve('./sidebarsLinks.js'),
+        id: 'resources',
+        path: 'resources',
+        routeBasePath: 'resources',
+        sidebarPath: require.resolve('./sidebarsResources.js'),
         showLastUpdateTime: true,
       },
     ]
@@ -83,6 +83,7 @@ const config = {
     ],
   ],
 
+  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -108,8 +109,8 @@ const config = {
             position: 'left'
           },
           {
-            href: '/links',
-            label: 'Links',
+            href: '/resources',
+            label: 'Resources',
             position: 'left',
           },
           {
@@ -167,6 +168,70 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: 'YOUR_APP_ID',
+  
+      //   // Public API key: it is safe to commit it
+      //   apiKey: 'YOUR_SEARCH_API_KEY',
+  
+      //   indexName: 'YOUR_INDEX_NAME',
+  
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
+  
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: 'external\\.com|domain\\.com',
+  
+      //   // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      //   replaceSearchResultPathname: {
+      //     from: '/docs/', // or as RegExp: /\/docs\//
+      //     to: '/',
+      //   },
+  
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
+  
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
+  
+      //   // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      //   insights: false,
+  
+      //   //... other Algolia params
+      // },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '9Z5NNR4L0O',
+  
+        // Public API key: it is safe to commit it
+        apiKey: '76921613c2a2952a1299164a06dfd8f0',
+  
+        indexName: 'home-automation-india',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'home-automation-india\\.netlify\\.app',
+  
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+  
+        // Optional: Algolia search parameters
+        searchParameters: {},
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+  
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+  
+        //... other Algolia params
       },
     }),
 };

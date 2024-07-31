@@ -28,3 +28,23 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+.button-discord {
+  background-color: #5865F2; /* Discord primary color */
+  border: none; /* Remove border */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline from text */
+  display: inline-block; /* Inline-block element */
+  font-size: 16px; /* Adjust font size as needed */
+  margin: 4px 2px; /* Adjust margin as needed */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button-discord:hover {
+  background-color: #4855C7; /* Slightly darker shade for hover effect */
+}
