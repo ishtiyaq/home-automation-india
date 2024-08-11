@@ -14,9 +14,9 @@ Monitoring inverter battery for voltage, current and temperature and possible Hy
 5) Use the attached ESPHOME YAML for flashing on your ESP8266, change the necessary applicable parameters.
 6) Use the attached Home Assistant YAML for calculating the Battery remaining time, and load etc. 
 
-![alt text](img/image.png)
+![alt text](img/inverter-battery-monitor-0.png)
 
-![alt text](img/image-1.png)
+![alt text](img/inverter-battery-monitor-1.png)
 
 ```yaml
 esphome:

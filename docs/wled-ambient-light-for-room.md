@@ -58,8 +58,8 @@ Thats it. ask "alexa to explore devices"; once done ask Alexa to turn on ambient
 - https://kno.wled.ge/basics/top5_mistakes/
 
   
-<!-- ![alt text](img/image.png)
-![alt text](img/image-1.png)
-![alt text](img/image-2.png)
-![alt text](img/image-3.png)
-![alt text](img/image-4.png) -->
+![alt text](img/wled-ambient-light-for-room-0.png)
+![alt text](img/wled-ambient-light-for-room-1.png)
+![alt text](img/wled-ambient-light-for-room-2.png)
+![alt text](img/wled-ambient-light-for-room-3.png)
+![alt text](img/wled-ambient-light-for-room-4.png)
