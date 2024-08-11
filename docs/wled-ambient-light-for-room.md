@@ -1,3 +1,9 @@
+---
+title: WLED Ambient Light for Room
+sidebar_label: 🌈 WLED Light
+sidebar_position: 2
+---
+
 # Quick and easy WLED ambient light for room (HA and Alexa)
 
 Hey Guys made this project in less than an hour, Its pretty easy and every DIY enthu can make it in no time. It gives excellent convenience during night bed time breaks. just say "Alexa turn on ambient light".
@@ -52,8 +58,8 @@ Thats it. ask "alexa to explore devices"; once done ask Alexa to turn on ambient
 - https://kno.wled.ge/basics/top5_mistakes/
 
   
-![alt text](img/image.png)
+<!-- ![alt text](img/image.png)
 ![alt text](img/image-1.png)
 ![alt text](img/image-2.png)
 ![alt text](img/image-3.png)
-![alt text](img/image-4.png)
+![alt text](img/image-4.png) -->

@@ -1,5 +1,7 @@
 ---
-sidebar_position: 4
+title: Inverter Battery Monitor
+sidebar_label: 🔋 Battery Monitor
+sidebar_position: 5
 ---
 
 # Inverter Battery Monitor

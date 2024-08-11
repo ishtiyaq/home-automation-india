@@ -1,4 +1,6 @@
 ---
+title: Tuya CloudCutter with ESPHome LibreTiny
+sidebar_label: ✂️ Tuya CloudCutter
 sidebar_position: 3
 ---
 

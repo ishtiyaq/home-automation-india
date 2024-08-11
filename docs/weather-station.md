@@ -2,7 +2,7 @@
 title: Weather Station
 # hide_title: true
 sidebar_label: 🌦️ Weather Station
-sidebar_position: 1
+sidebar_position: 6
 ---
 
 
